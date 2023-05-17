@@ -1,9 +1,11 @@
-import React from 'react'
+import ListOfPosts from './[id]/ListOfPosts'
 
-const Posts = () => {
+const PostsPage = () => {
   return (
-    <div>Aqui mostraremos todos los posts</div>
+    <section>
+      <ListOfPosts />
+    </section>
   )
 }
 
-export default Posts
+export default PostsPage
