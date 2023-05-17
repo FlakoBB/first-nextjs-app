@@ -1,0 +1,15 @@
+.header {
+  padding: 1rem;
+  border: 1px solid antiquewhite;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
