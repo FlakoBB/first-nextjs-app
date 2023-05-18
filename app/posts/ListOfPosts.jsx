@@ -25,8 +25,8 @@ const ListOfPosts = async () => {
             <Link href='/posts/[id]' as={ `/posts/${post.id}` }>
               <h2 style={{ color: 'greenyellow' }}>{ post.title }</h2>
               <p>{ post.body }</p>
-              <LikeButton />
             </Link>
+            <LikeButton />
           </article>
         ))
       }

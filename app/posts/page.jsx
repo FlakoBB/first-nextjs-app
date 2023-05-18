@@ -1,4 +1,4 @@
-import ListOfPosts from './[id]/ListOfPosts'
+import ListOfPosts from './ListOfPosts'
 
 const PostsPage = () => {
   return (

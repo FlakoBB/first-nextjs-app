@@ -1,11 +1,9 @@
 // * El Estado de los layout se mantiene siempre que se este mostrando
 
-import Counter from './Counter'
-
 export const PostsLayout = ({ children }) => {
   return (
     <div>
-      <Counter />
+      <small>Home &bull; Posts</small>
       {children}
     </div>
   )
