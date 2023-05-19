@@ -1,4 +1,5 @@
 import styles from '../../../../styles/comments.module.css'
+import Image from 'next/image'
 
 import { jostFont } from '@/app/fonts'
 
@@ -24,6 +25,7 @@ const Comments = async ({ params }) => {
         {
           comments.map(comment => (
             <li key={ comment.id }>
+              <Image width='100' height='100' alt='avatar' src={`https://i.pravatar.cc/150?u=${comment.email}`} />
               <h2 className={styles.email}>{ comment.email }</h2>
               <p>{ comment.body }</p>
             </li>
